@@ -1,6 +1,6 @@
 # normalize-color [![Build Status](https://travis-ci.org/niksrc/normalize-color.svg?branch=master)](https://travis-ci.org/niksrc/normalize-color)
 
-> My wondrous module
+> Normalize colors for use in terminals
 
 
 ## Install
@@ -15,30 +15,19 @@ $ npm install --save normalize-color
 ```js
 const normalizeColor = require('normalize-color');
 
-normalizeColor('unicorns');
-//=> 'unicorns & rainbows'
+normalizeColor({r: 128, g: 0, b: 0});
+//=> 'red'
 ```
-
 
 ## API
 
-### normalizeColor(input, [options])
+### normalizeColor(input)
 
 #### input
 
-Type: `string`
+Type: `object`
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+{r: 128, g: 0 , b: 256}
 
 ## License
 
