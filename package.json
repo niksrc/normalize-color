@@ -1,0 +1,29 @@
+{
+  "name": "normalize-color",
+  "version": "0.0.0",
+  "description": "My wondrous module",
+  "license": "MIT",
+  "repository": "niksrc/normalize-color",
+  "author": {
+    "name": "Nikhil Srivastava",
+    "email": "niksrc@gmail.com",
+    "url": "niksrc.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
