@@ -23,7 +23,7 @@
     "color",
     "chalk",
     "shell",
-    "prompt"
+    "prompt",
     "fallback"
   ],
   "dependencies": {},
