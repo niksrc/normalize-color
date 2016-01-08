@@ -1,7 +1,7 @@
 {
   "name": "normalize-color",
-  "version": "0.0.0",
-  "description": "My wondrous module",
+  "version": "0.1.0",
+  "description": "Normalize colors for use in terminals",
   "license": "MIT",
   "repository": "niksrc/normalize-color",
   "author": {
@@ -19,7 +19,12 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "Normalize",
+    "color",
+    "chalk",
+    "shell",
+    "prompt"
+    "fallback"
   ],
   "dependencies": {},
   "devDependencies": {
