@@ -2,6 +2,7 @@
 
 > Normalize colors for use in terminals
 
+Chalk Supports only basic 9 colors.This module takes any RGB color and converts it to a nearest color thats is supported by chalk.
 
 ## Install
 
